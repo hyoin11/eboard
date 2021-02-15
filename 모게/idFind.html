@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두의게시판</title>
+    <link rel="shortcut icon" href="./image/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./board.php"><p><span>모</span><span>두</span><span>의</span><span>게</span><span>시</span><span>판</span></p></a>
+    </header>
+    <section>
+        <div id="idFind_wrap">
+            <p>
+                <input type="text" name="findPh" id="findPh" placeholder="가입시 사용하신 휴대폰번호를 '-'를 포함하여 입력하세요."/>
+            </p>
+            <p>
+                <input type="button" value="아이디 찾기" id="findIdBtn"/>
+            </p>
+            <div>
+                <p>가입하신 아이디는 <span id="findUserId"></span> 입니다.</p>
+                <p><a href="./login.php">로그인하러 가기</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
